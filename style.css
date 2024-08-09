@@ -1,0 +1,52 @@
+h1{
+    font-size: 50px;
+    margin-left: 50px;
+    padding-top: 200px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 200px;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 80px;
+    padding: 0;
+  }
+  
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 5px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #C10039;
+  }
+
+  a {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin-right: 80px;
+    text-align: center;
+  }
+  
+  a.ejs {
+    text-align: center;
+    margin: 0px;
+  }
