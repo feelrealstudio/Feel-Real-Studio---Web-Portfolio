@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <!--
+      JavaScript 7th Edition
+      Chapter 7
+      Project 6
+
+      Author: Sally Soto
+      Date:  2/25/2024
+
+      Filename: p6.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Project 6 - Chapter 7</title>
+   <link rel="stylesheet" href="style.css" />
+   <script src="p6.js" defer></script>
+</head>
+    <body>
+        <ul>
+            <li><a href="p1.html">Home</a></li>
+            <li><a href="p2.html">Destinations</a></li>
+            <li><a href="p5.html">Transportation</a></li>
+            <li><a href="p3.html">Reviews</a></li>
+            <li><a href="p3.html">Contact</a></li>
+        </ul>
+
+        <h1>Feedback</h1>
+        <p>We want to always do better to help our customers, please give us any helpful feedback in the selection below!</p>
+        <p>Select as many options as possible.</p>
+   
+
+            <input type="checkbox" id="feed1" name="feedbacks" value="Proactive staff" onclick="feedbackForm()"/> <label for="feed1">Proactive staff and aid</label><br>
+            <input type="checkbox" id="feed2" name="feedbacks" value="Helpful staff" onclick="feedbackForm()"/> <label for="feed2">Helpful staff</label><br>
+            <input type="checkbox" id="feed3" name="feedbacks" value="Slightly helpful staff" onclick="feedbackForm()"/> <label for="feed3">Slightly helpful staff </label><br>
+            <input type="checkbox" id="feed4" name="feedbacks" value="Barley helpful staff" onclick="feedbackForm()"/> <label for="feed4">Barley helpful staff</label><br>
+            <input type="checkbox" id="feed5" name="feedbacks" value="Not helpful staff at all" onclick="feedbackForm()"/> <label for="feed5">Not helpful staff at all</label>
+            <span id="feedback"></span>
+         <p id="feedbackResult"></p>    
+
+         <input type="submit" id="subButton" value="Submit Feedback" onclick="let msg = 'Thanks for submitting your Feedback!';
+         window.alert(msg);""/>    
+
+    </body>
+</html>

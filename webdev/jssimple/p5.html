@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <!--
+      JavaScript 7th Edition
+      Chapter 6
+      Project 5
+
+      Author: Sally Soto
+      Date:  2/18/2024
+
+      Filename: p5.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Project 5 - Chapter 6</title>
+   <link rel="stylesheet" href="style.css" />
+   <script src="p5.js" defer></script>
+</head>
+    <body>
+        <ul>
+            <li><a href="p1.html">Home</a></li>
+            <li><a href="p2.html">Destinations</a></li>
+            <li><a href="p3.html">Reviews</a></li>
+            <li><a href="p3.html">Contact</a></li>
+            <li><a href="p6.html">Feedback</a></li>
+        </ul>
+
+        <h1>Transportation</h1>
+        <p>If you need help with reserving transportation options we are here to help! Please fill out the form below.</p>
+
+        <section id="shuttleForm">
+            <form id="orderForm" name="orderForm" method="get"> 
+              
+              <table id="orderTable">
+                 <caption>Shuttle Scheduler</caption>
+                 <tr>
+                    <td>
+                       <label for="date">Date</label>
+                       <select name="date" id="date"> //model = date
+                          <option value="2/18/2024">2/18/2024</option> //prices were here for quarts
+                          <option value="2/19/2024" selected>2/19/2024</option>
+                          <option value="2/20/2024">2/20/2024</option>
+                          <option value="2/21/2024">2/21/2024</option>
+                          <option value="2/22/2024">2/22/2024</option>
+                          <option value="2/23/2024">2/23/2024</option>
+                          <option value="2/24/2024">2/24/2024</option>
+                          <option value="2/25/2024">2/25/2024</option>
+                       </select>   
+                       <input type="hidden" id="modelName" name="modelName" />
+                    </td>
+                    <td>
+                       <label for="qty">Time</label>
+                       <select name="qty" id="qty">
+                          <option value="1" selected>9am</option>
+                          <option value="2">10am</option><option value="3">11am</option>
+                          <option value="4">12pm</option><option value="5">1pm</option><option value="6">2pm</option>
+                          <option value="7">3pm</option><option value="8">4pm</option><option value="9">5pm</option>
+                          <option value="10">6pm</option>
+                       </select>   
+                    </td> 
+                  <tr>
+                  <td>
+                    <label for="pickUp">Pickup Location</label>
+                    <select name="qty" id="qty">
+                       <option value="1" selected>St. Louis</option>
+                       <option value="2">New York City</option><option value="3">Gainesville</option>
+                       <option value="4">Jacksonville</option><option value="5">Fairfax</option><option value="6">Vienna</option>
+                       <option value="7">Richmond</option><option value="8">Honolulu</option><option value="9">Hollywood</option>
+                       <option value="10">Baltimore</option>
+                    </select>   
+                 </td> 
+                 <td>
+                 <label for="dropOff">Drop off Location</label>
+                 <select name="qty" id="qty">
+                    <option value="1" selected>St. Louis</option>
+                    <option value="2">New York City</option><option value="3">Gainesville</option>
+                    <option value="4">Jacksonville</option><option value="5">Fairfax</option><option value="6">Vienna</option>
+                    <option value="7">Richmond</option><option value="8">Honolulu</option><option value="9">Hollywood</option>
+                    <option value="10">Baltimore</option>
+                  </td>
+                  <a id= "paybutton" href="payForm.html"><button type="button">Proceed to Payment</button></a>  
+                  </select>   
+                  </tr>
+            </form>
+         </section>
+ 
+    </body>
+</html>

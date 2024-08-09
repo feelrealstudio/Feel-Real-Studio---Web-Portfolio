@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <!--
+      JavaScript 7th Edition
+      Chapter 2
+      Project 2 
+
+      Author: Sally Soto
+      Date:  2/4/2024
+
+      Filename: p2.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Project 2</title>
+   <link rel="stylesheet" href="style.css" />
+   <script src="p2.js"></script>
+</head>
+    <body>
+        <ul>
+            <li><a href="p1.html">Home</a></li>
+            <li><a href="p5.html">Transportation</a></li>
+            <li><a href="p4.html">Reviews</a></li>
+            <li><a href="p6.html">Feedback</a></li>
+        </ul>
+        <h1>Destinations</h1>
+        <img src = "map.jpg" alt="destination map" style="width:750px; height:550px;">
+        <p>There are so many places to choose where to visit. We here can help guide you to find your next destination by finding out more 
+            about your needs and wants for your trip.
+        </p>
+        <article>
+            <h2>Let's plan your trip</h2>
+            <form id = "Estimate">
+                <fieldset id="yourbudgetinfo">
+                    <label for="travelersNum">
+                        Number of Travelers?
+                        <input type = "number" id="travelersNum" name="travelers" />
+                    </label>
+                    <br>
+                    <label for="transportNum">
+                        How much do you want to spend on transport?
+                        <input type = "number" id="transportNum" name="transportation" />
+                    </label>
+                    <br>
+                    <label for="distanceNum">
+                        How far do you want to travel (in miles)?
+                        <input type = "number" id="distanceNum" name="distance" />
+                    </label>
+                </fieldset>
+                <fieldset id = "totalbutton">
+                    <input type="button" id = "total" value="Calculate" onclick="getEstimate ()"/>
+                </fieldset>
+            </form>
+        </article>
+    </body>
+</html>

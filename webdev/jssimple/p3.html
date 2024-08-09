@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <!--
+      JavaScript 7th Edition
+      Chapter 3
+      Project 3
+
+      Author: Sally Soto
+      Date:  2/11/2024
+
+      Filename: p3.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Project 3</title>
+   <link rel="stylesheet" href="style.css" />
+   <script src="p3.js" defer></script>
+</head>
+    <body>
+        <ul>
+            <li><a href="p1.html">Home</a></li>
+            <li><a href="p2.html">Destinations</a></li>
+            <li><a href="p5.html">Transportation</a></li>
+            <li><a href="p4.html">Reviews</a></li>
+            <li><a href="p6.html">Feedback</a></li>
+        </ul>
+        <h1>Contact</h1>
+        <p>We are always looking for ways to connect more personally and find out your needs!
+        </p>
+            <h2>Our Staff</h2>
+            <p>Joe Goldman - Manager</p>
+            <p>Amanda Hui - Marketing Coordinator</p>
+            <p>Rick Bash - Travel Specialist</p>
+            <p>Amo Tu - Executive Assistant</p>
+            <p>Rex Meo - Travel Assistant</p>
+                  <select id='employeeList' onchange="document.getElementById('employees').innerHTML= this.value !='-1'?
+                  paySalary(employeeNames[this.value], workHours[this.value]):'';"></select>
+                  <div id="employees"></div>
+    </body>
+</html>
