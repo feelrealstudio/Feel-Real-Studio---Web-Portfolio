@@ -42,7 +42,6 @@ p{
     margin-left: 80px;
   }
 
-
 ul {
     list-style-type: none;
     margin-right: 80px;
@@ -52,6 +51,7 @@ ul {
   li {
     float: right;
   }
+
   li a {
     display: block;
     color: black;
