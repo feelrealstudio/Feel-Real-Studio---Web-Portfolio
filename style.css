@@ -16,6 +16,9 @@ h3{
 
 p{
     text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
+    
 }
 
 ul {
@@ -51,15 +54,3 @@ ul {
     margin: 0px;
   }
   
-  a.vawfsc {
-    text-align: center;
-    margin: 0px;
-  }
-  a.drup {
-    text-align: center;
-    margin: 0px;
-  }
-  a.jssimple {
-    text-align: center;
-    margin: 0px;
-  }
