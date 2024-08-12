@@ -40,14 +40,6 @@ ul {
   li a:hover {
     color: #C10039;
   }
-
-  a {
-    font-family: 'Montserrat', sans-serif;
-    display: block;
-    margin-right: 80px;
-    text-align: center;
-  }
-  
   a.ejs {
     text-align: center;
   }
@@ -66,3 +58,12 @@ ul {
     text-align: center;
     margin: 0px;
   }
+
+  a {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin-right: 80px;
+    text-align: center;
+  }
+  
+
