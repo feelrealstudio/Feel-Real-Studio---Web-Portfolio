@@ -20,27 +20,7 @@ p{
     margin-left: 80px;
 }
 
-ul {
-    list-style-type: none;
-    margin-right: 80px;
-    padding: 0;
-  }
-  
-  li {
-    float: right;
-  }
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 13px 5px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    color: #C10039;
-  }
-  a.ejs {
+ a.ejs {
     text-align: center;
     margin-right: 80px;
     margin-left: 80px;
@@ -62,6 +42,28 @@ ul {
     margin-left: 80px;
   }
 
+
+ul {
+    list-style-type: none;
+    margin-right: 80px;
+    padding: 0;
+  }
+  
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 5px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #C10039;
+  }
+ 
   a {
     font-family: 'Montserrat', sans-serif;
     display: block;
