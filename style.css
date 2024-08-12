@@ -42,21 +42,26 @@ ul {
   }
   a.ejs {
     text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
   }
 
   a.vawfsc {
     text-align: center;
-    margin: 0px;
+    margin-right: 80px;
+    margin-left: 80px;
   }
 
   a.jssimple {
     text-align: center;
-    margin: 0px;
+    margin-right: 80px;
+    margin-left: 80px;
   }
 
   a.drup {
     text-align: center;
-    margin: 0px;
+    margin-right: 80px;
+    margin-left: 80px;
   }
 
   a {
