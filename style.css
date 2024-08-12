@@ -20,6 +20,13 @@ p{
     margin-left: 80px;
 }
 
+a {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin-right: 80px;
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     margin-right: 80px;
@@ -41,12 +48,5 @@ ul {
   li a:hover {
     color: #C10039;
   }
- 
-  a {
-    font-family: 'Montserrat', sans-serif;
-    display: block;
-    margin-right: 80px;
-    text-align: center;
-  }
-  
 
+  
